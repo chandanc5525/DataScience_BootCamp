@@ -1,0 +1,44 @@
+-- Step 1: Create Database : Mydb_ItVedant
+
+# Syntax: Create Database If Not Exists <DatabaseName>;
+
+Create Database If Not Exists Mydb_ItVedant;
+
+# Step 2: Use Database: Mydb_ItVedant
+
+# Synatx: Use <DatabaseName>;
+
+Use Mydb_ItVedant;
+
+# Show Databases
+
+# Synatx: Show Databases;
+
+Show Databases;
+
+
+# Step 3: Create Tables inside Database: Mydb_ItVedant
+
+# Synatx: Create Table <TableName> (Field1 Datatype, Field2 Datatype); 
+
+
+
+CREATE TABLE Employee (
+    Id INT,
+    Name VARCHAR(20),
+    Age INT
+); 
+
+# Checking Tables inside Database
+
+Show Tables;
+
+# Using Select Statement: Retrival of Data
+
+# Syntax: Select * From <TableName>;
+# Syntax: Select Field1, Field2 From <TableName>;
+
+SELECT 
+    *
+FROM
+    Employee;
